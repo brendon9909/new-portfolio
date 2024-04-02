@@ -64,8 +64,8 @@ body{
 .cv{
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to bottom right, #004b7c, #84ceff);
   align-items: center;
-  background-color: black;
   color: white;
   height: 100vh;
 }
@@ -104,4 +104,14 @@ body{
 .aboutHead h1{
   font-size: 10vh;
   text-decoration: underline;
+}
+
+.cvButton{
+  height: 10vh;
+  width: 20vw;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom right, #ff7f76, #feb47b);
 }
