@@ -115,3 +115,23 @@ body{
   font-weight: bold;
   background-image: linear-gradient(to bottom right, #ff7f76, #feb47b);
 }
+
+.container{
+  display: grid;
+  width: 130vh;
+  grid-template-columns: 10rem 20rem 10rem;
+  grid-gap: 1rem;
+}
+
+.proj{
+  background-color: wheat;
+  color: wheat;
+  height: 30vh;
+  font-weight: bold;
+  font-size: small;
+}
+
+.proj:hover{
+  background-color: black;
+  transition: 2s;
+}
