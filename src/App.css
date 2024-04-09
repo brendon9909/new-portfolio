@@ -23,7 +23,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 20vh;
   cursor: pointer;
   font-family: "Tac One", sans-serif;
   font-weight: 300;
@@ -31,6 +31,25 @@ body{
   font-size: 4vh;
   color: white;
   text-shadow: 2px 1px black;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  font-family: "Tac One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 4vh;
+  color: white;
+  text-shadow: 2px 1px black;
+}
+
+.gmail{
+  height: 25px;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 .item:hover{
@@ -56,7 +75,7 @@ body{
 }
 
 .aboutMe{
-  background-image: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+  background-image: linear-gradient(to bottom right, #000f3a, #82b8ff);
   color: white;
   height: 100vh;
 }

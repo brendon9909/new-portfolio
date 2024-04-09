@@ -1,3 +1,6 @@
+import Lottie from 'lottie-react';
+import myAnimation from '../assets/Animation - 1712668574688.json';
+
 export default function About() {
   return (
     <div className="aboutMe">
@@ -22,6 +25,7 @@ export default function About() {
           <br /> of bringing ideas to life through code.
         </p>
       </div>
+      <Lottie className='myGif' animationData={myAnimation}/>
     </div>
   );
 }
