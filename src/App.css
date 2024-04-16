@@ -19,11 +19,50 @@ body{
   background-color: rgba(255, 255, 255, 0.801);
 }
 
+.js{
+  width: 8vw;
+}
+
+.ht{
+  width: 8vw;
+}
+
+.cs{
+  width: 8vw;
+}
+
+.git{
+  width: 8vw;
+}
+
+.re{
+  width: 8vw;
+}
+
+.logoTitle{
+  font-weight: bold;
+  font-size: larger;
+}
+
+.braket{
+  background-color: rgba(163, 0, 0, 0.685);
+  width: 60vw;
+  height: 80vh;
+  position: relative;
+  left: 50px;
+  border-radius: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
 .item{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 17vh;
   cursor: pointer;
   font-family: "Tac One", sans-serif;
   font-weight: 300;

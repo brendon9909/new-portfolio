@@ -6,6 +6,7 @@ import Cv from "./components/Cv";
 import NavBar from "./components/NavBar";
 import { UserProvider } from "./components/UserContext";
 import About from "./components/About";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/cv" element={<Cv />} />
           <Route path="/about" element={<About/>}/>
+          <Route path="/skills" element={<Skills/>} />
         </Routes>
       </div>
     </UserProvider>
